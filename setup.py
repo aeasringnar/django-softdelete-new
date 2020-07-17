@@ -10,12 +10,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-softdelete-new',
-    version='0.2',
+    version='0.2.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
-    description='A simple Python package can provide soft deletion function for Django.',
+    description='基于Django的轻量级软删除插件，支持Django>=1.11',
     long_description=README,
+    long_description_content_type='text/markdown',
     url='https://github.com/aeasringnar/django-softdelete-new',
     author='Aeasringnar',
     author_email='Aeasringnar@gmail.com',
