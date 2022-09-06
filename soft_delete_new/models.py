@@ -5,7 +5,7 @@ from collections import Counter
 from django.db import (models, router, transaction)
 from django.db.models import signals, sql
 from django.contrib.admin.utils import NestedObjects
-from django.db.models.fields import FieldDoesNotExist
+from django.core.exceptions import FieldDoesNotExist
 from operator import attrgetter
 
 
