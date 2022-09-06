@@ -1,6 +1,6 @@
 ### Django-softdelete-new
 
-基于Django的轻量级软删除插件，支持Django>=1.11。
+基于Django的轻量级软删除插件，支持Django>=3.2。
 
 #### 快速开始
 
